@@ -10,7 +10,7 @@ export default function Home() {
         </h1>
         <p className="leading-7 [&:not(:first-child)]:mt-6">
           Hey Jack just want to wish you a happy birthday. Since we met many moons ago,
-          I've always admired the curiosity you have towards the world and your ability
+          I&apos;ve always admired the curiosity you have towards the world and your ability
           to percisely articulate questions about it. I consider you a great friend, I
           consider you a brother and I hold a great deal of respect for the man and human
           that you are. Cheers to twenty four. 🥂
