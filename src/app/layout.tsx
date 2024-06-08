@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Reddit_Mono } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from '@/components/theme-provider';
 import { ModeToggle } from '@/components/ui/mode-toggle';
 
-const inter = Inter({ subsets: ["latin"] });
+const redditSans = Reddit_Mono({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   title: "Wing Stache App Denver",
@@ -19,7 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head />
-      <body className={inter.className}>
+      <body className={redditSans.className}>
         <ThemeProvider attribute='class' defaultTheme='system' enableSystem disableTransitionOnChange>
           {children}
           <div>
