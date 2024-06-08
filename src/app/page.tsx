@@ -20,7 +20,6 @@ export default function Home() {
           <Image src={"/jack_club_headshot.jpg"} width={560} height={620} className='block md:hidden' alt='Screenshot of the dashboard project showing mobile version' />
         </div>
       </div>
-      <ModeToggle />
     </main>
   );
 }
