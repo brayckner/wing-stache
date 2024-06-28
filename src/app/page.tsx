@@ -26,6 +26,11 @@ export default function Home() {
             pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
             deserunt mollit anim id est laborum.
           </p>
+          <button className='py-2 px-4 my-5 bg-green-500 text-white font-semibold
+                            rounded-lg shadow-md hover:bg-green-700 focus:outline-none
+                            focus:ring-2 focus:ring-green-400 focus:ring-opacity-75'>
+            Success
+          </button>
         </div>
 
       </main>
