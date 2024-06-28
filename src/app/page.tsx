@@ -1,38 +1,25 @@
+import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
 import Link from 'next/link';
 
 export default function Home() {
   return (
     <>
-      <nav className="bg-gray-800 p-4">
-        <div className="container mx-auto flex justify-between items-center">
-          <div className="text-white font-bold text-xl">
-            <Link href="/">WingStache</Link>
-          </div>
-          <div className="space-x-4">
-            <Link href="/welcome" className="text-gray-300 hover:text-white">Get Started</Link>
-          </div>
-        </div>
-      </nav>
-      <main className="flex min-h-screen flex-col items-center justify-between p-24">
-        <div>
-          <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl">
-            Have a night party people
-          </h1>
-          <p className="leading-7 [&:not(:first-child)]:mt-6">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor
-            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-            irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-            deserunt mollit anim id est laborum.
-          </p>
-          <button className='py-2 px-4 my-5 bg-green-500 text-white font-semibold
+      <main className="flex flex-col max-w-xl w-full mx-auto">
+        <div className='flex flex-row space-x-4 items-center'>
+          <Link className='' href="/">WingMate</Link>
+          <Link className='py-2 px-4 my-5 bg-green-500 text-white font-semibold
                             rounded-lg shadow-md hover:bg-green-700 focus:outline-none
-                            focus:ring-2 focus:ring-green-400 focus:ring-opacity-75'>
-            Success
-          </button>
+                            focus:ring-2 focus:ring-green-400 focus:ring-opacity-75' href={'/login'}>Login</Link>
+          <Link className='py-2 px-4 my-5 bg-blue-500 text-white font-semibold
+                            rounded-lg shadow-md hover:bg-green-700 focus:outline-none
+                            focus:ring-2 focus:ring-green-400 focus:ring-opacity-75' href={'/signup'}>Sign Up</Link>
         </div>
 
+        <div className='flex flex-row'>
+          {/* Need to add the Login / Signup form here but read the docs on Nextjs forms */}
+        </div>
+
+        <div className='flex flex-row'>Some cool quote or city icon </div>
       </main>
     </>
   );
