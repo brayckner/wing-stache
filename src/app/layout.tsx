@@ -22,9 +22,7 @@ export default function RootLayout({
       <body className={redditSans.className}>
         <ThemeProvider attribute='class' defaultTheme='system' enableSystem disableTransitionOnChange>
           {children}
-          <div>
-            <ModeToggle />
-          </div>
+          <ModeToggle />
         </ThemeProvider>
       </body>
     </html>
