@@ -39,7 +39,7 @@ export default function Home() {
             <Image src={"/mya-birthday-card.jpg"} width={500} height={380} className="rounded-md" alt="Birthday Card Image" />
           </div>
           <blockquote className="mt-6 border-l-2 pl-6 italic">
-            "& then I met you, & slowly but all at once my whole world began to change." - r.m broderick
+            &quot; &amp; then I met you, &amp; slowly but all at once my whole world began to change.&quot; - r.m broderick
           </blockquote>
           <div className="flex flex-col md:flex-row items-center md:items-start space-y-4 md:space-y-0 md:space-x-4">
             <Image src={"/bray-mya-first-game.jpg"} width={500} height={380} className="rounded-md" alt="First Game Image" />
@@ -47,7 +47,7 @@ export default function Home() {
           </div>
           <Image src={"/bray-mya-first-contact.png"} width={500} height={380} className="rounded-md" alt="First Game Image" />
           <p className="leading-7 [&:not(:first-child)]:mt-6">
-            Happy Birthday baby, I'll see you soon and I can't wait to celebrate many more together.
+            Happy Birthday baby, I&apos;ll see you soon and I cannot wait to celebrate many more together.
           </p>
           <p className="text-sm text-muted-foreground">a brayckner production.</p>
         </div>
